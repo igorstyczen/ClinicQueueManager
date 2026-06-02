@@ -1,0 +1,21 @@
+# Build
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Baza lokalna (tworzy się przy uruchomieniu)
+clinic.db
+clinic.db-shm
+clinic.db-wal
+
+# DocFX — wygenerowany portal HTML
+docfx_project/_site/
+
+# System
+Thumbs.db
+Desktop.ini

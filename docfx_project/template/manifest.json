@@ -1,0 +1,10 @@
+{
+  "files": {
+    "styles/main.css": {
+      "alias": "main.css"
+    },
+    "main.js": {
+      "alias": "main.js"
+    }
+  }
+}

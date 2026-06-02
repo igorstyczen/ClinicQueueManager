@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "..",
+          "files": ["ClinicQueueManager.csproj"]
+        }
+      ],
+      "dest": "api",
+      "filter": "filter.yml",
+      "properties": {
+        "TargetFramework": "net8.0-windows"
+      }
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "toc.yml",
+          "index.md",
+          "articles/**.md"
+        ]
+      },
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "nav/**"
+        ]
+      },
+      {
+        "src": "..",
+        "files": [
+          "screenshots/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "template"
+    ],
+    "globalMetadata": {
+      "_appTitle": "MediQueue — dokumentacja",
+      "_appName": "MediQueue",
+      "_enableSearch": true,
+      "_disableNavbar": false,
+      "_disableBreadcrumb": true,
+      "_navRel": "nav/toc.html"
+    }
+  }
+}

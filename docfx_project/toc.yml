@@ -1,0 +1,76 @@
+- name: Strona główna
+
+  href: index.md
+
+- name: Wprowadzenie
+
+  href: articles/wprowadzenie.md
+
+- name: Cel projektu
+
+  href: articles/cel-projektu.md
+
+- name: Innowacja
+
+  href: articles/innowacja.md
+
+- name: Technologie
+
+  href: articles/technologie.md
+
+- name: Architektura
+
+  href: articles/architektura.md
+
+- name: Baza danych
+
+  href: articles/baza-danych.md
+
+- name: Uruchomienie
+
+  href: articles/uruchomienie.md
+
+- name: Dashboard
+
+  href: articles/uzytkownik/widoki/dashboard.md
+
+- name: Pacjenci (widok)
+
+  href: articles/uzytkownik/widoki/pacjenci.md
+
+- name: Lekarze (widok)
+
+  href: articles/uzytkownik/widoki/lekarze.md
+
+- name: Wizyty (widok)
+
+  href: articles/uzytkownik/widoki/wizyty.md
+
+- name: Specjalizacje (widok)
+
+  href: articles/uzytkownik/widoki/specjalizacje.md
+
+- name: Gabinety (widok)
+
+  href: articles/uzytkownik/widoki/gabinety.md
+
+- name: Walidacja — zasady
+
+  href: articles/uzytkownik/walidacja/index.md
+
+- name: Walidacja — pacjenci
+
+  href: articles/uzytkownik/walidacja/pacjenci.md
+
+- name: Walidacja — lekarze
+
+  href: articles/uzytkownik/walidacja/lekarze.md
+
+- name: Walidacja — wizyty
+
+  href: articles/uzytkownik/walidacja/wizyty.md
+
+- name: Dokumentacja API
+
+  href: api/
+

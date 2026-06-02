@@ -1,0 +1,16 @@
+apiRules:
+  - include:
+      uidRegex: ^ClinicQueueManager\.Helpers
+      type: Namespace
+  - include:
+      uidRegex: ^ClinicQueueManager\.Services
+      type: Namespace
+  - include:
+      uidRegex: ^ClinicQueueManager\.Data
+      type: Namespace
+  - include:
+      uidRegex: ^ClinicQueueManager\.Models\.Patient$
+      type: Class
+  - exclude:
+      uidRegex: .*
+      type: Namespace

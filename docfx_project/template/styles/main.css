@@ -1,0 +1,251 @@
+/* MediQueue — styl dokumentacji DocFX (szablon classic) */
+
+:root {
+  --mq-green-dark: #064e3b;
+  --mq-green: #059669;
+  --mq-green-light: #d1fae5;
+  --mq-bg: #f0fdf4;
+  --mq-text: #111827;
+  --mq-muted: #64748b;
+  --mq-card: #ffffff;
+  --mq-border: #a7f3d0;
+}
+
+html, body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--mq-bg) !important;
+  color: var(--mq-text) !important;
+}
+
+/* Pasek górny — zielony jak w aplikacji, nie czarny */
+.navbar-inverse {
+  background-color: var(--mq-green-dark) !important;
+  border-color: var(--mq-green-dark) !important;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-text {
+  color: #ecfdf5 !important;
+}
+
+.navbar-inverse .navbar-form .form-control {
+  background: #047857;
+  border-color: #10b981;
+  color: #fff;
+}
+
+/* Górny pasek — jedna linia, bez rozwijania pół strony */
+.navbar-inverse {
+  min-height: 52px !important;
+  max-height: 52px !important;
+  margin-bottom: 0 !important;
+}
+
+.navbar-inverse .navbar-collapse {
+  max-height: 52px !important;
+  overflow: visible !important;
+}
+
+/* Linki nawigacji tylko w lewym panelu — górny pasek: logo + wyszukiwarka */
+#navbar > ul.navbar-nav {
+  display: none !important;
+}
+
+.subnav.navbar-default {
+  display: none !important;
+}
+
+/* Lewe menu (spis treści) — wąskie, przyklejone do boku */
+#sidetoc {
+  position: fixed !important;
+  left: 0 !important;
+  top: 52px !important;
+  width: 240px !important;
+  bottom: 0 !important;
+  overflow-y: auto !important;
+  background: var(--mq-card) !important;
+  border-right: 1px solid var(--mq-border) !important;
+  z-index: 100 !important;
+  padding-top: 8px !important;
+}
+
+.sidefilter {
+  padding: 8px 10px !important;
+}
+
+.sidetoc .toc {
+  font-size: 13px !important;
+}
+
+/* Treść obok menu, nie pod spodem */
+.role.main.container.body-content,
+.container.body-content.hide-when-search {
+  margin-left: 250px !important;
+  width: auto !important;
+  max-width: none !important;
+  padding-top: 16px !important;
+}
+
+header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 200 !important;
+  width: 100% !important;
+}
+
+#wrapper {
+  padding-top: 52px !important;
+}
+
+/* Treść artykułu */
+.body-content,
+.container.body-content {
+  background: var(--mq-bg) !important;
+  max-width: 1100px;
+}
+
+.article.row.grid {
+  background: var(--mq-card);
+  border: 1px solid var(--mq-border);
+  border-radius: 12px;
+  margin: 24px auto 40px;
+  padding: 32px 40px;
+  box-shadow: 0 4px 24px rgba(6, 78, 59, 0.08);
+}
+
+.article .col-md-10 {
+  width: 100%;
+  max-width: 100%;
+}
+
+article.content,
+#_content {
+  color: var(--mq-text) !important;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+article.content h1,
+#_content h1 {
+  color: var(--mq-green-dark) !important;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--mq-green);
+}
+
+article.content h2,
+#_content h2 {
+  color: var(--mq-green-dark) !important;
+  font-size: 1.35rem;
+  margin-top: 2rem;
+}
+
+article.content h3,
+#_content h3 {
+  color: #047857 !important;
+  margin-top: 1.5rem;
+}
+
+article.content p,
+article.content li,
+article.content td,
+article.content th {
+  color: var(--mq-text) !important;
+}
+
+article.content a {
+  color: var(--mq-green) !important;
+  font-weight: 500;
+}
+
+article.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+  font-size: 14px;
+}
+
+article.content th {
+  background: var(--mq-green-light);
+  color: var(--mq-green-dark) !important;
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid var(--mq-border);
+}
+
+article.content td {
+  padding: 8px 12px;
+  border: 1px solid var(--mq-border);
+}
+
+article.content img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--mq-border);
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+article.content blockquote,
+.alert {
+  background: var(--mq-green-light);
+  border-left: 4px solid var(--mq-green);
+  padding: 12px 16px;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+  color: var(--mq-text) !important;
+}
+
+/* Menu boczne TOC */
+.toc {
+  background: var(--mq-card);
+  border-right: 1px solid var(--mq-border);
+}
+
+.toc .nav > li > a {
+  color: var(--mq-text) !important;
+}
+
+.toc .nav > li.active > a {
+  color: var(--mq-green-dark) !important;
+  font-weight: 600;
+  background: var(--mq-green-light) !important;
+}
+
+/* Ukryj pusty „In this article” */
+.sideaffix nav.bs-docs-sidebar {
+  display: none;
+}
+
+.sideaffix .col-md-2 {
+  display: none;
+}
+
+/* Stopka */
+footer .footer {
+  background: var(--mq-green-dark) !important;
+  color: #ecfdf5 !important;
+  padding: 16px 0;
+  margin-top: 0;
+}
+
+footer .footer a {
+  color: #6ee7b7 !important;
+}
+
+footer .grad-bottom {
+  display: none;
+}
+
+/* Kod */
+pre, code {
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
