@@ -3,7 +3,7 @@
 **Autor:** Igor Styczeń  
 
 
----
+
 
 ## 1. Jak oceniasz projekt
 
