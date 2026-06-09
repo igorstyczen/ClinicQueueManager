@@ -1,32 +1,11 @@
-# Ściąga do obrony — MediQueue (ClinicQueueManager)
+
 
 **Autor:** Igor Styczeń  
-**Cel:** zaliczenie na spokojnym **3.0** — wiesz co powiedzieć, gdzie kliknąć i gdzie leży kod.
 
-> Ten plik jest **notatką dla Ciebie**, nie do czytania prowadzącemu z ekranu. Ucz się **myśli**, nie na pamięć całych akapitów.
-
----
-
-## Spis
-
-1. [Jak oceniasz projekt](#1-jak-oceniasz-projekt)
-2. [Pytania „o zdanie” — gotowe odpowiedzi](#2-pytania-o-zdanie--gotowe-odpowiedzi)
-3. [Z czego jesteś zadowolony — 5 przykładów](#3-z-czego-jesteś-zadowolony--5-przykładów)
-4. [Co mógłbyś rozwinąć — 5 przykładów](#4-co-mógłbyś-rozwinąć--5-przykładów)
-5. [Mapa kodu — moduł po module](#5-mapa-kodu--moduł-po-module)
-6. [Scenariusz obrony krok po kroku](#6-scenariusz-obrony-krok-po-kroku)
-7. [Pytania techniczne PO2 — z lokalizacją w kodzie](#7-pytania-techniczne-po2--z-lokalizacją-w-kodzie)
-8. [Walidacja — komunikaty i gdzie testować](#8-walidacja--komunikaty-i-gdzie-testować)
-9. [Baza danych — relacje do opowiedzenia](#9-baza-danych--relacje-do-opowiedzenia)
-10. [Gdy poproszą o małą zmianę w kodzie](#10-gdy-poproszą-o-małą-zmianę-w-kodzie)
-11. [Czego nie mówić](#11-czego-nie-mówić)
-12. [Zdanie otwierające i zamykające](#12-zdanie-otwierające-i-zamykające)
 
 ---
 
 ## 1. Jak oceniasz projekt
-
-**Wersja na 3.0 (szczera):**
 
 > Swój projekt oceniam na **około 3.0**, może **3.5** jeśli spytają o ambicję.  
 > Program **działa**, ma sensowny temat, bazę SQLite, formularze WPF i podstawową logikę biznesową.  
